@@ -1,0 +1,50 @@
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: #EEEEEE;
+    padding: 50px;
+}
+
+.slick-prev {
+    left: -10% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: -10% !important;
+    z-index: 1;
+  }
+
+  .slick-slide>div {padding: 0 10px;
+   
+}
+
+.slick-slide>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     padding: 0px;
+     border-radius: 10px;
+    
+}
+
+.slider_box{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+  .slider_img{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    background-color: #F0DE21;
+    padding: 20px;
+    border-radius: 50%;
+  
+
+  }
+
+  .slider_img img{
+    width: 100%;
+    height: 100%;
+  }
