@@ -26,7 +26,7 @@ function SampleNextArrow(props) {
   }
 const AstroService = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -38,22 +38,26 @@ const AstroService = () => {
     <div>
         <div className="container">
         <Slider {...settings}>
-        {
-                AstroSliderData.map((el)=>{
-                  return( <div className="slider_box">
-                       <div className="slider_img">
-                        <img src={el.image} alt="" />
-                       </div>
-                       <div className="slider_heading">
-                        <h2>{el.heading}</h2>
-                       </div>
-                       <div className="desc">
-                        <p>{el.desc}</p>
-                       </div>
+             {
+               AstroSliderData.map((el)=>(
+                <div className="slider_box">
+                <div className="slider_img">
+                 <img src={el.image} alt="" />
+                </div>
+                <div className="slider_heading">
+                 <h2>{el.heading}</h2>
+                </div>
+                <div className="desc">
+                 <p>{el.desc}</p>
+                </div>
 
-                   </div>)
-                })
-            }
+            </div>
+
+               ))
+             }
+                       
+
+                  
        
       </Slider>
            

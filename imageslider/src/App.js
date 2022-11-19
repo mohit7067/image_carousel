@@ -1,5 +1,5 @@
 import './App.css';
-import AstroService from './Pages/Homepage/AstroServiceSlider/AstroService';
+import AstroService from './Component/AstroService';
 
 
 function App() {

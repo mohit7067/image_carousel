@@ -9,13 +9,13 @@
     {
         "id":2,
         "image":"https://cdn-icons-png.flaticon.com/512/2647/2647303.png",
-        "heading":"Festival",
+        "heading":"Kundali",
         "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus "
     },
     {
         "id":3,
         "image":"https://cdn-icons-png.flaticon.com/512/3199/3199958.png",
-        "heading":"Festival",
+        "heading":"Pooja",
         "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus "
     }, {
         "id":4,

@@ -1,6 +1,7 @@
 .container{
     width: 70%;
     margin: auto;
+    margin-top: 100px;
     background-color: #EEEEEE;
     padding: 50px;
 }
@@ -18,12 +19,11 @@
    
 }
 
-.slick-slide>div:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/* .slick-slide>div:hover{
      padding: 0px;
      border-radius: 10px;
     
-}
+} */
 
 .slider_box{
     border: 1px solid black;
